@@ -86,39 +86,12 @@ function TeamCard({ name, role, phone, email, image, dre, languages }: {
 export function About() {
   const teamMembers = [
     {
-      name: 'EMRE MUHSINOGLU',
-      role: 'DIRECTOR OF THE ESTATE DIVISION & TEAM LEADER',
-      phone: '424-566-9001',
-      email: 'emre@thelouvetgroup.com',
-      image: '/team/emre.png',
-      dre: '02222895',
-      languages: ['Turkish']
-    },
-    {
-      name: 'EZGI FICICI',
-      role: 'LUXURY AGENT',
-      phone: '747-250-2160',
-      email: 'ezgi@thelouvetgroup.com',
-      image: '/team/ezgi.png',
-      dre: '02308813',
-      languages: ['Turkish']
-    },
-    {
       name: 'BRITNIE MOSBY',
       role: 'LUXURY AGENT',
       phone: '415-509-7871',
       email: 'britnie@thelouvetgroup.com',
       image: '/team/0fbc306c-b54d-42b8-a8c0-7964a0c501bc.png',
       dre: '02077728'
-    },
-    {
-      name: 'EMILY MEZA',
-      role: 'LUXURY AGENT',
-      phone: '310-925-9852',
-      email: 'kenia@thelouvetgroup.com',
-      image: '/team/emily.png',
-      dre: '01765914',
-      languages: ['Spanish']
     },
     {
       name: 'ARA HUYETT',
@@ -162,13 +135,6 @@ export function About() {
       image: '/team/1.png',
       dre: '01987658',
       languages: ['Thai', 'Laotian']
-    },
-    {
-      name: 'MICHELLE SINGERMAN',
-      role: 'SENIOR ESCROW OFFICER',
-      phone: '310-528-0123',
-      email: 'michellesingermanrealestate@gmail.com',
-      image: '/team/michelle.jpg'
     },
     {
       name: 'SAAD EL GHARBAOUI',

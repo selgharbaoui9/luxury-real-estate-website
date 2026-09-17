@@ -4,7 +4,7 @@ export function Press() {
   const testimonials = [
     {
       source: 'Google Review',
-      quote: 'Laurent, Emre, and Ezgi all bring real professionalism and genuine care to what they do. You can tell they take their craft seriously and treat clients like the relationship matters.',
+      quote: 'Laurent brings real professionalism and genuine care to what they do. You can tell they take their craft seriously and treat clients like the relationship matters.',
       client: 'Jamil A.'
     },
     {
