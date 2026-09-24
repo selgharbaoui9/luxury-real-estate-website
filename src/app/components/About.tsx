@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { ChevronDown, Phone, Mail } from 'lucide-react';
 
-function TeamCard({ name, role, phone, email, image, imagePosition, dre, languages }: {
+function TeamCard({ name, role, phone, email, image, dre, languages }: {
   name: string;
   role: string;
   phone?: string;
   email?: string;
   image: string;
-  imagePosition?: string;
   dre?: string;
   languages?: string[];
 }) {
@@ -23,7 +22,6 @@ function TeamCard({ name, role, phone, email, image, imagePosition, dre, languag
           src={image}
           alt={name}
           className="w-full h-full object-cover"
-          style={imagePosition ? { objectPosition: imagePosition } : undefined}
         />
       </div>
 
@@ -133,17 +131,16 @@ export function About() {
       name: 'DON WIGHT',
       role: 'TRANSACTION COORDINATOR',
       phone: '310-968-2322',
-      email: 'Dwight@thelouvetgroup.com',
+      email: 'dwight@thelouvetgroup.com',
       image: '/team/don-wight.jpg',
       dre: '01302289'
     },
     {
       name: 'MARCOS HOBSON',
       role: 'INTERN',
-      phone: '+1 (785) 207-1951',
+      phone: '785-207-1951',
       email: 'mhobson555@gmail.com',
-      image: '/team/marcos-hobson.jpg',
-      imagePosition: 'center top'
+      image: '/team/marcos-hobson.jpg'
     },
     {
       name: 'SAAD EL GHARBAOUI',
