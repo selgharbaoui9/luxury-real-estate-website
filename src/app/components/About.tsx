@@ -103,15 +103,6 @@ export function About() {
       languages: ['Greek']
     },
     {
-      name: 'POLINA MITIANINA',
-      role: 'LUXURY AGENT',
-      phone: '415-509-7871',
-      email: 'polina@thelouvetgroup.com',
-      image: '/team/polina.png',
-      dre: '02237196',
-      languages: ['Russian']
-    },
-    {
       name: 'ARDRA FLEMING',
       role: 'LUXURY AGENT',
       phone: '310-466-1777',
